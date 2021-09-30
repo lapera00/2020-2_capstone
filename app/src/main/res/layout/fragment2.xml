@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment2"
+    android:gravity="center"
+    android:padding="0dp"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:textSize="20dp"
+                    android:text="  압력 분포"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="15dp"
+                android:layout_gravity="center">
+                <View
+                    android:background="#696969"
+                    android:layout_width="390dp"
+                    android:layout_height="5px">
+                </View>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                >
+
+
+                <TextView
+                    android:id="@+id/textView_Row00"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView_Row01"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView_Row02"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView_Row03"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView_Row04"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+
+                <TextView
+                    android:id="@+id/textView_Row05"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="50dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:id="@+id/textView_Row10"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row11"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row12"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row13"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row14"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row15"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row16"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row17"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row18"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row19"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row110"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row111"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row112"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row113"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row114"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal" >
+
+                <TextView
+                    android:id="@+id/textView_Row20"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row21"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row22"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row23"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row24"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:layout_width="35dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row25"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row26"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row27"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row28"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+                <TextView
+                    android:id="@+id/textView_Row29"
+                    android:background="@drawable/bg_custom_button"
+                    android:layout_width="25dp"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:gravity="center_horizontal">
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center">
+                <View
+                    android:background="#696969"
+                    android:layout_width="390dp"
+                    android:layout_height="5px">
+                </View>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="  현재자세  "
+                    android:textSize="20dp"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:gravity="right"
+                    android:id="@+id/textView_SP1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textColor="@color/black"
+                    android:text="  현재자세 유지시간 "
+                    android:textSize="20dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <TextView
+                    android:layout_marginRight="5dp"
+                    android:id="@+id/mtv_Posture_State"
+                    android:gravity="right"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_f1">
+
+    <fragment
+        android:id="@+id/nav_f1"
+        android:name="org.techtown.sit2.Fragment1"
+        android:label="ON/OFF"
+        tools:layout="@layout/fragment1">
+
+        <action
+            android:id="@+id/action_f1_to_f2"
+            app:destination="@id/nav_f2" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_f2"
+        android:name="org.techtown.sit2.Fragment2"
+        android:label="실시간 자세"
+        tools:layout="@layout/fragment2">
+        <action
+            android:id="@+id/action_f2_to_f1"
+            app:destination="@id/nav_f1" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="org.techtown.sit2.Fragment3"
+        android:label="통계"
+        tools:layout="@layout/fragment3" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="org.techtown.sit2.Fragment4"
+        android:label="설정"
+        tools:layout="@layout/fragment4" />
+</navigation>

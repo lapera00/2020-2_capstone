@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".Fragment4"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:id="@+id/onoff"
+                android:layout_width="133dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="50dp"
+                android:layout_weight="1"
+                android:text="▶  PUSH 알림"
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <Switch
+                android:id="@+id/push_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="50dp"
+                android:scrollbarFadeDuration="250"
+                android:scrollbarSize="4dp"
+                android:switchMinWidth="45dp"
+                android:textSize="20dp"
+                android:gravity="right"
+                android:switchPadding="230dp"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="18dp"
+                android:textColor="@color/black"
+                android:text = "▶  PUSH 알림 간격 설정">
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <SeekBar
+                android:id="@+id/seek_bar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:max="120"
+                android:min="5"
+                android:progress="10">
+            </SeekBar>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <TextView
+                android:text="10"
+                android:id="@+id/sw_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:textColor="@color/black">
+
+            </TextView>
+        </LinearLayout>
+
+
+
+            <Button
+                android:id="@+id/sit_del"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="120dp"
+                android:background="#E2E1E1"
+                android:text="데이터 삭제"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                >
+            </Button>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/sit_off"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="#dcdcdc"
+                android:text="종료 "
+                android:textColor="@color/black"
+                android:textSize="20dp"></Button>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_gravity="center"
+                android:text="데이터 삭제 시 종료 후 다시 실행시켜 주세요"
+                android:textColor="@color/black"
+                android:textSize="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp">
+            </TextView>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
