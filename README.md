@@ -10,3 +10,6 @@
 ![005](https://user-images.githubusercontent.com/86655589/135437089-ef99d4e4-3b55-4ca5-b3bb-7c9a18c06061.png)
 
 ![006](https://user-images.githubusercontent.com/86655589/135437092-ae41853d-a5db-4c95-8ba6-4840f15781d3.png)
+
+2020-2 캡스톤
+- 블루투스 연결
