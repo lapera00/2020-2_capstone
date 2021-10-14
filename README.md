@@ -1,3 +1,9 @@
+2020-2 캡스톤
+- 압력센서, 블루투스 연결
+- 실시간 확인
+- 기록저장
+- 알림기능
+
 # 2020-2_capstone
 ![001](https://user-images.githubusercontent.com/86655589/135437051-4a73ac82-c510-4050-8f8d-4d987854f82e.png)
 
@@ -11,8 +17,3 @@
 
 ![006](https://user-images.githubusercontent.com/86655589/135437092-ae41853d-a5db-4c95-8ba6-4840f15781d3.png)
 
-2020-2 캡스톤
-- 압력센서, 블루투스 연결
-- 실시간 확인
-- 기록저장
-- 알림기능
